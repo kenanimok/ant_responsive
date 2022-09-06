@@ -1,7 +1,7 @@
 import React from "react";
+import AppAbout from "../home/about";
 import AppHero from "../home/hero";
 
-// import AppAbout from '../components/home/about';
 // import AppFeature from '../components/home/feature';
 // import AppWorks from '../components/home/works';
 // import AppFaq from '../components/home/faq';
@@ -12,6 +12,7 @@ function AppHome() {
   return (
     <div className="main">
       <AppHero />
+      <AppAbout />
       {/* <AppAbout/>
       <AppFeature/>
       <AppWorks/>
